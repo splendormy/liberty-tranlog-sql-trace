@@ -1,0 +1,76 @@
+[jcc]
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]setGenericSpecialRegisters () returned null
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]setDB2ClientWorkstation (null, false) called
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]setDB2ClientWorkstation (10.36.0.1, false) called
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@c70e3d70]getConnection () called
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@c70e3d70]getConnection () returned com.ibm.db2.jcc.am.nf@3d1dfb3
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@c70e3d70]addConnectionEventListener (WSRdbManagedConnectionImpl@5d49c09b) called
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@c70e3d70]addStatementEventListener (WSRdbManagedConnectionImpl@5d49c09b) called
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]getHoldability () returned 1
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]getAutoCommit () returned true
+[jcc][Time:2022-12-22-05:14:28.832][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]getCatalog () returned null
+[jcc][Time:2022-12-22-05:14:28.833][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]isReadOnly () returned false
+[jcc][Time:2022-12-22-05:14:28.833][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]getSchema () returned null
+[jcc][Time:2022-12-22-05:14:28.833][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@a5a17d4e]closeOnCompletion (true) called
+[jcc][Time:2022-12-22-05:14:28.833][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@a5a17d4e]executeQuery (select CURRENT SCHEMA from SYSIBM.SYSDUMMY1) called
+[jcc][Time:2022-12-22-05:14:28.835][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@a5a17d4e]executeQuery () returned ResultSet@276dac0
+[jcc][Time:2022-12-22-05:14:28.835][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@276dac0]next () called
+[jcc][Time:2022-12-22-05:14:28.836][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@276dac0]next () returned true
+[jcc][Time:2022-12-22-05:14:28.836][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@276dac0]getString (1) called
+[jcc][Time:2022-12-22-05:14:28.836][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@276dac0]getString () returned DB2INST1
+[jcc][Time:2022-12-22-05:14:28.836][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@276dac0]close () called
+[jcc][Time:2022-12-22-05:14:28.836][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@276dac0]closeX (null, com.ibm.db2.jcc.t4.b@6be2ced8) called
+[jcc][Time:2022-12-22-05:14:28.837][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@276dac0]completeLocalCommit (false, true) called
+[jcc][Connection@6be2ced8] DB2 LUWID: 10.36.0.1.55546.221222051428.0001
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@276dac0]markClosed () called
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]getNetworkTimeout () called
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]getNetworkTimeout () returned 0
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]getTransactionIsolation () returned 2
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]setTransactionIsolation (4) called
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]clearWarnings () called
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:14:28.838][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]createStatement () returned Statement@ad53fd30
+[jcc][Time:2022-12-22-05:14:28.839][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@ad53fd30]executeQuery (SELECT SERVER_NAME FROM WAS_TRAN_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:14:28.843][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@ad53fd30]executeQuery () returned ResultSet@58cbbdd5
+[jcc][Time:2022-12-22-05:14:28.843][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@58cbbdd5]next () called
+[jcc][Time:2022-12-22-05:14:28.845][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@58cbbdd5]next () returned true
+[jcc][Time:2022-12-22-05:14:28.845][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@58cbbdd5]getString (1) called
+[jcc][Time:2022-12-22-05:14:28.845][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@58cbbdd5]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:14:28.845][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@58cbbdd5]close () called
+[jcc][Time:2022-12-22-05:14:28.845][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@58cbbdd5]closeX (null, com.ibm.db2.jcc.t4.b@6be2ced8) called
+[jcc][Time:2022-12-22-05:14:28.846][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@58cbbdd5]markClosed () called
+[jcc][Time:2022-12-22-05:14:28.846][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@ad53fd30]close () called
+[jcc][Time:2022-12-22-05:14:28.847][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]prepareStatement (DELETE FROM WAS_TRAN_LOG_WLP1 WHERE SERVER_NAME = ? AND SERVICE_ID = ? AND RU_ID = ? , 1003, 1007) called
+[jcc][Time:2022-12-22-05:14:28.847][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]prepareStatement () returned com.ibm.db2.jcc.am.gp@9ed2f222
+[jcc][Time:2022-12-22-05:14:28.847][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:14:28.847][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:14:28.847][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:14:28.847][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:14:28.847][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]addBatch () called
+[jcc][Time:2022-12-22-05:14:28.850][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:14:28.850][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]addBatch () called
+[jcc][Time:2022-12-22-05:14:28.850][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]executeBatch () called
+[jcc][Time:2022-12-22-05:14:28.852][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]executeBatch () returned { 6, 3 }
+[jcc][Time:2022-12-22-05:14:28.852][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]getMoreResults () called
+[jcc][Time:2022-12-22-05:14:28.852][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:14:28.853][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]getUpdateCount () called
+[jcc][Time:2022-12-22-05:14:28.853][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:14:28.853][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]clearParameters () called
+[jcc][Time:2022-12-22-05:14:28.853][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]commit () called
+[jcc][Connection@6be2ced8] DB2 LUWID: 10.36.0.1.55546.221222051428.0002
+[jcc][Time:2022-12-22-05:14:28.860][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]commit () returned null
+[jcc][Time:2022-12-22-05:14:28.860][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:14:28.861][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]isInDB2UnitOfWork () returned false
+[jcc][Time:2022-12-22-05:14:28.902][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]isInDB2UnitOfWork () returned false
+[jcc][Time:2022-12-22-05:14:28.902][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]isInDB2UnitOfWork () returned false
+[jcc][Time:2022-12-22-05:14:28.902][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@c70e3d70]removeConnectionEventListener (WSRdbManagedConnectionImpl@5d49c09b) called
+[jcc][Time:2022-12-22-05:14:28.902][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@c70e3d70]removeStatementEventListener (WSRdbManagedConnectionImpl@5d49c09b) called
+[jcc][Time:2022-12-22-05:14:28.902][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@9ed2f222]close () called
+[jcc][Time:2022-12-22-05:14:28.909][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]isClosed () returned false
+[jcc][Time:2022-12-22-05:14:28.909][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]getAutoCommit () returned true
+[jcc][Time:2022-12-22-05:14:28.909][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:14:28.909][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@6be2ced8]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:14:28.909][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@c70e3d70]recycleConnection () called
+[jcc][Time:2022-12-22-05:14:28.909][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@c70e3d70]close () called
+[jcc][Connection@6be2ced8] DB2 LUWID: 10.36.0.1.55546.221222051428.0003

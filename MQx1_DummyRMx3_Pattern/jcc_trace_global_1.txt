@@ -1,0 +1,711 @@
+[jcc]
+[jcc][Time:2022-12-22-05:07:40.736][Thread:Recovery Thread][Connection@df90549d]setGenericSpecialRegisters () returned null
+[jcc][Time:2022-12-22-05:07:40.736][Thread:Recovery Thread][Connection@df90549d]setDB2ClientWorkstation (null, false) called
+[jcc][Time:2022-12-22-05:07:40.742][Thread:Recovery Thread][Connection@df90549d]prepareSQLJCall (dynamicExec)  (false) called
+[jcc][Time:2022-12-22-05:07:40.756][Thread:Recovery Thread][Connection@df90549d]prepareSQLJCall () returned com.ibm.db2.jcc.am.CallableStatement@e754bf20
+[jcc][Time:2022-12-22-05:07:40.756][Thread:Recovery Thread][CallableStatement@e754bf20]setString (1, 10.36.0.1) called
+[jcc][Time:2022-12-22-05:07:40.756][Thread:Recovery Thread][CallableStatement@e754bf20]setString (2, 10.36.0.1) called
+[jcc][Time:2022-12-22-05:07:40.756][Thread:Recovery Thread][CallableStatement@e754bf20]setString (3, db2inst1) called
+[jcc][Time:2022-12-22-05:07:40.757][Thread:Recovery Thread][CallableStatement@e754bf20]setString (4, 041900) called
+[jcc][Time:2022-12-22-05:07:40.757][Thread:Recovery Thread][CallableStatement@e754bf20]setString (5, null) called
+[jcc][Time:2022-12-22-05:07:40.757][Thread:Recovery Thread][CallableStatement@e754bf20]setString (6, null) called
+[jcc][Time:2022-12-22-05:07:40.757][Thread:Recovery Thread][CallableStatement@e754bf20]setString (7, null) called
+[jcc][Time:2022-12-22-05:07:40.757][Thread:Recovery Thread][CallableStatement@e754bf20]registerOutParameter (7, 12) called
+[jcc][Time:2022-12-22-05:07:40.757][Thread:Recovery Thread][CallableStatement@e754bf20]execute () called
+[jcc][Time:2022-12-22-05:07:40.770][Thread:Recovery Thread][Connection@df90549d]getAutoCommit () returned true
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0001
+[jcc][Time:2022-12-22-05:07:40.772][Thread:Recovery Thread][CallableStatement@e754bf20]close () called
+[jcc][Time:2022-12-22-05:07:40.776][Thread:Recovery Thread][Connection@df90549d]setDB2ClientWorkstation (10.36.0.1, false) called
+[jcc][Time:2022-12-22-05:07:40.777][Thread:Recovery Thread][DB2PooledConnection@692620b1]getConnection () called
+[jcc][Time:2022-12-22-05:07:40.779][Thread:Recovery Thread][DB2PooledConnection@692620b1]getConnection () returned com.ibm.db2.jcc.am.nf@1046df8d
+[jcc][Time:2022-12-22-05:07:40.779][Thread:Recovery Thread][Connection@df90549d]getMetaData () returned DatabaseMetaData@9dcf7b2e
+[jcc][Time:2022-12-22-05:07:40.780][Thread:Recovery Thread][Connection@df90549d]getClientInfo () called
+[jcc][Time:2022-12-22-05:07:40.780][Thread:Recovery Thread][Connection@df90549d]getClientInfo () returned {ClientUser=, ApplicationName=, ClientHostname=10.36.0.1, ClientAccountingInformation=}
+[jcc][Time:2022-12-22-05:07:40.780][Thread:Recovery Thread][Connection@df90549d]getMetaData () returned DatabaseMetaData@9dcf7b2e
+[jcc][Time:2022-12-22-05:07:40.781][Thread:Recovery Thread][Connection@df90549d]isInDB2UnitOfWork () returned false
+[jcc][Time:2022-12-22-05:07:40.782][Thread:Recovery Thread][DB2PooledConnection@692620b1]addConnectionEventListener (WSRdbManagedConnectionImpl@60ef0ed0) called
+[jcc][Time:2022-12-22-05:07:40.782][Thread:Recovery Thread][DB2PooledConnection@692620b1]addStatementEventListener (WSRdbManagedConnectionImpl@60ef0ed0) called
+[jcc][Time:2022-12-22-05:07:40.782][Thread:Recovery Thread][Connection@df90549d]getHoldability () returned 1
+[jcc][Time:2022-12-22-05:07:40.782][Thread:Recovery Thread][Connection@df90549d]getAutoCommit () returned true
+[jcc][Time:2022-12-22-05:07:40.782][Thread:Recovery Thread][Connection@df90549d]getCatalog () returned null
+[jcc][Time:2022-12-22-05:07:40.782][Thread:Recovery Thread][Connection@df90549d]isReadOnly () returned false
+[jcc][Time:2022-12-22-05:07:40.782][Thread:Recovery Thread][Connection@df90549d]getSchema () returned null
+[jcc][Time:2022-12-22-05:07:40.783][Thread:Recovery Thread][Statement@e560353]closeOnCompletion (true) called
+[jcc][Time:2022-12-22-05:07:40.783][Thread:Recovery Thread][Statement@e560353]executeQuery (select CURRENT SCHEMA from SYSIBM.SYSDUMMY1) called
+[jcc][Time:2022-12-22-05:07:40.792][Thread:Recovery Thread][Statement@e560353]executeQuery () returned ResultSet@cafc0528
+[jcc][Time:2022-12-22-05:07:40.792][Thread:Recovery Thread][ResultSet@cafc0528]next () called
+[jcc][Time:2022-12-22-05:07:40.792][Thread:Recovery Thread][ResultSet@cafc0528]next () returned true
+[jcc][Time:2022-12-22-05:07:40.792][Thread:Recovery Thread][ResultSet@cafc0528]getString (1) called
+[jcc][Time:2022-12-22-05:07:40.792][Thread:Recovery Thread][ResultSet@cafc0528]getString () returned DB2INST1
+[jcc][Time:2022-12-22-05:07:40.792][Thread:Recovery Thread][ResultSet@cafc0528]close () called
+[jcc][Time:2022-12-22-05:07:40.792][Thread:Recovery Thread][ResultSet@cafc0528]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.793][Thread:Recovery Thread][ResultSet@cafc0528]completeLocalCommit (false, true) called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0002
+[jcc][Time:2022-12-22-05:07:40.794][Thread:Recovery Thread][ResultSet@cafc0528]markClosed () called
+[jcc][Time:2022-12-22-05:07:40.794][Thread:Recovery Thread][Connection@df90549d]getNetworkTimeout () called
+[jcc][Time:2022-12-22-05:07:40.794][Thread:Recovery Thread][Connection@df90549d]getNetworkTimeout () returned 0
+[jcc][Time:2022-12-22-05:07:40.794][Thread:Recovery Thread][Connection@df90549d]getTransactionIsolation () returned 2
+[jcc][Time:2022-12-22-05:07:40.794][Thread:Recovery Thread][Connection@df90549d]setTransactionIsolation (4) called
+[jcc][Time:2022-12-22-05:07:40.941][Thread:Recovery Thread][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:07:40.941][Thread:Recovery Thread][Connection@df90549d]getMetaData () returned DatabaseMetaData@9dcf7b2e
+[jcc][Time:2022-12-22-05:07:40.942][Thread:Recovery Thread][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:07:40.942][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.943][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@610ee007
+[jcc][Time:2022-12-22-05:07:40.943][Thread:Recovery Thread][Statement@610ee007]executeQuery (SELECT SERVER_NAME, RUSECTION_ID FROM WAS_TRAN_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:07:40.946][Thread:Recovery Thread][Statement@610ee007]executeQuery () returned ResultSet@8d8bb4b9
+[jcc][Time:2022-12-22-05:07:40.948][Thread:Recovery Thread][ResultSet@8d8bb4b9]close () called
+[jcc][Time:2022-12-22-05:07:40.948][Thread:Recovery Thread][ResultSet@8d8bb4b9]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.949][Thread:Recovery Thread][ResultSet@8d8bb4b9]markClosed () called
+[jcc][Time:2022-12-22-05:07:40.949][Thread:Recovery Thread][Statement@610ee007]close () called
+[jcc][Time:2022-12-22-05:07:40.949][Thread:Recovery Thread][Connection@df90549d]rollback () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0003
+[jcc][Time:2022-12-22-05:07:40.950][Thread:Recovery Thread][Connection@df90549d]rollback () returned null
+[jcc][Time:2022-12-22-05:07:40.950][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.950][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@d37843ed
+[jcc][Time:2022-12-22-05:07:40.950][Thread:Recovery Thread][Statement@d37843ed]executeQuery (SELECT SERVER_NAME, RUSECTION_ID FROM WAS_TRAN_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:07:40.952][Thread:Recovery Thread][Statement@d37843ed]executeQuery () returned ResultSet@cc04e54b
+[jcc][Time:2022-12-22-05:07:40.952][Thread:Recovery Thread][ResultSet@cc04e54b]next () called
+[jcc][Time:2022-12-22-05:07:40.954][Thread:Recovery Thread][ResultSet@cc04e54b]next () returned true
+[jcc][Time:2022-12-22-05:07:40.954][Thread:Recovery Thread][ResultSet@cc04e54b]getString (1) called
+[jcc][Time:2022-12-22-05:07:40.954][Thread:Recovery Thread][ResultSet@cc04e54b]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:07:40.954][Thread:Recovery Thread][ResultSet@cc04e54b]getLong (2) called
+[jcc][Time:2022-12-22-05:07:40.954][Thread:Recovery Thread][ResultSet@cc04e54b]getLong () returned 1
+[jcc][Time:2022-12-22-05:07:40.954][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.954][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@5e59c146
+[jcc][Time:2022-12-22-05:07:40.954][Thread:Recovery Thread][Statement@5e59c146]executeUpdate (UPDATE WAS_TRAN_LOG_WLP1 SET SERVER_NAME = 'defaultServer', RUSECTION_ID = 1 WHERE RU_ID = -1) called
+[jcc][Time:2022-12-22-05:07:40.961][Thread:Recovery Thread][Statement@5e59c146]executeUpdate () returned 1
+[jcc][Time:2022-12-22-05:07:40.962][Thread:Recovery Thread][ResultSet@cc04e54b]close () called
+[jcc][Time:2022-12-22-05:07:40.962][Thread:Recovery Thread][ResultSet@cc04e54b]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.962][Thread:Recovery Thread][ResultSet@cc04e54b]markClosed () called
+[jcc][Time:2022-12-22-05:07:40.962][Thread:Recovery Thread][Statement@d37843ed]close () called
+[jcc][Time:2022-12-22-05:07:40.962][Thread:Recovery Thread][Statement@5e59c146]close () called
+[jcc][Time:2022-12-22-05:07:40.962][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.962][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@83a13f1b
+[jcc][Time:2022-12-22-05:07:40.963][Thread:Recovery Thread][Statement@83a13f1b]executeQuery (SELECT RU_ID, RUSECTION_ID, RUSECTION_DATA_INDEX, DATA FROM WAS_TRAN_LOG_WLP1 WHERE SERVER_NAME='defaultServer' AND SERVICE_ID=1) called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][Statement@83a13f1b]executeQuery () returned ResultSet@c10c1a53
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]next () called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]next () returned true
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]getLong (1) called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]getLong () returned -1
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]next () called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]markClosed () called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]next () returned false
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]close () called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][ResultSet@c10c1a53]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][Statement@83a13f1b]close () called
+[jcc][Time:2022-12-22-05:07:40.967][Thread:Recovery Thread][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0004
+[jcc][Time:2022-12-22-05:07:40.968][Thread:Recovery Thread][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:07:40.968][Thread:Recovery Thread][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:07:40.968][Thread:Recovery Thread][Connection@df90549d]isInDB2UnitOfWork () returned false
+[jcc][Time:2022-12-22-05:07:40.969][Thread:Recovery Thread][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:07:40.969][Thread:Recovery Thread][Connection@df90549d]getMetaData () returned DatabaseMetaData@9dcf7b2e
+[jcc][Time:2022-12-22-05:07:40.969][Thread:Recovery Thread][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:07:40.969][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.969][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@441a1dd9
+[jcc][Time:2022-12-22-05:07:40.970][Thread:Recovery Thread][Statement@441a1dd9]executeQuery (SELECT SERVER_NAME, RUSECTION_ID FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:07:40.974][Thread:Recovery Thread][Statement@441a1dd9]executeQuery () returned ResultSet@910141a8
+[jcc][Time:2022-12-22-05:07:40.974][Thread:Recovery Thread][ResultSet@910141a8]close () called
+[jcc][Time:2022-12-22-05:07:40.974][Thread:Recovery Thread][ResultSet@910141a8]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.975][Thread:Recovery Thread][ResultSet@910141a8]markClosed () called
+[jcc][Time:2022-12-22-05:07:40.975][Thread:Recovery Thread][Statement@441a1dd9]close () called
+[jcc][Time:2022-12-22-05:07:40.975][Thread:Recovery Thread][Connection@df90549d]rollback () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0005
+[jcc][Time:2022-12-22-05:07:40.976][Thread:Recovery Thread][Connection@df90549d]rollback () returned null
+[jcc][Time:2022-12-22-05:07:40.976][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.976][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@6426b395
+[jcc][Time:2022-12-22-05:07:40.976][Thread:Recovery Thread][Statement@6426b395]executeQuery (SELECT SERVER_NAME, RUSECTION_ID FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:07:40.977][Thread:Recovery Thread][Statement@6426b395]executeQuery () returned ResultSet@28501a11
+[jcc][Time:2022-12-22-05:07:40.977][Thread:Recovery Thread][ResultSet@28501a11]next () called
+[jcc][Time:2022-12-22-05:07:40.978][Thread:Recovery Thread][ResultSet@28501a11]next () returned true
+[jcc][Time:2022-12-22-05:07:40.978][Thread:Recovery Thread][ResultSet@28501a11]getString (1) called
+[jcc][Time:2022-12-22-05:07:40.978][Thread:Recovery Thread][ResultSet@28501a11]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:07:40.978][Thread:Recovery Thread][ResultSet@28501a11]getLong (2) called
+[jcc][Time:2022-12-22-05:07:40.978][Thread:Recovery Thread][ResultSet@28501a11]getLong () returned 1
+[jcc][Time:2022-12-22-05:07:40.978][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.978][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@4b9623aa
+[jcc][Time:2022-12-22-05:07:40.978][Thread:Recovery Thread][Statement@4b9623aa]executeUpdate (UPDATE WAS_PARTNER_LOG_WLP1 SET SERVER_NAME = 'defaultServer', RUSECTION_ID = 1 WHERE RU_ID = -1) called
+[jcc][Time:2022-12-22-05:07:40.981][Thread:Recovery Thread][Statement@4b9623aa]executeUpdate () returned 1
+[jcc][Time:2022-12-22-05:07:40.981][Thread:Recovery Thread][ResultSet@28501a11]close () called
+[jcc][Time:2022-12-22-05:07:40.981][Thread:Recovery Thread][ResultSet@28501a11]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.982][Thread:Recovery Thread][ResultSet@28501a11]markClosed () called
+[jcc][Time:2022-12-22-05:07:40.982][Thread:Recovery Thread][Statement@6426b395]close () called
+[jcc][Time:2022-12-22-05:07:40.982][Thread:Recovery Thread][Statement@4b9623aa]close () called
+[jcc][Time:2022-12-22-05:07:40.982][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.982][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@6cf21709
+[jcc][Time:2022-12-22-05:07:40.982][Thread:Recovery Thread][Statement@6cf21709]executeQuery (SELECT RU_ID, RUSECTION_ID, RUSECTION_DATA_INDEX, DATA FROM WAS_PARTNER_LOG_WLP1 WHERE SERVER_NAME='defaultServer' AND SERVICE_ID=1) called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][Statement@6cf21709]executeQuery () returned ResultSet@3218b4c5
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]next () called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]next () returned true
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]getLong (1) called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]getLong () returned -1
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]next () called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]markClosed () called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]next () returned false
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]close () called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][ResultSet@3218b4c5]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][Statement@6cf21709]close () called
+[jcc][Time:2022-12-22-05:07:40.985][Thread:Recovery Thread][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0006
+[jcc][Time:2022-12-22-05:07:40.986][Thread:Recovery Thread][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:07:40.986][Thread:Recovery Thread][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:07:40.987][Thread:Recovery Thread][Connection@df90549d]isInDB2UnitOfWork () returned false
+[jcc][Time:2022-12-22-05:07:40.989][Thread:Recovery Thread][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:07:40.989][Thread:Recovery Thread][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:07:40.989][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.989][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@52b0f99b
+[jcc][Time:2022-12-22-05:07:40.990][Thread:Recovery Thread][Statement@52b0f99b]executeQuery (SELECT SERVER_NAME FROM WAS_TRAN_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:07:40.992][Thread:Recovery Thread][Statement@52b0f99b]executeQuery () returned ResultSet@33782c50
+[jcc][Time:2022-12-22-05:07:40.992][Thread:Recovery Thread][ResultSet@33782c50]next () called
+[jcc][Time:2022-12-22-05:07:40.993][Thread:Recovery Thread][ResultSet@33782c50]next () returned true
+[jcc][Time:2022-12-22-05:07:40.993][Thread:Recovery Thread][ResultSet@33782c50]getString (1) called
+[jcc][Time:2022-12-22-05:07:40.993][Thread:Recovery Thread][ResultSet@33782c50]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:07:40.993][Thread:Recovery Thread][ResultSet@33782c50]close () called
+[jcc][Time:2022-12-22-05:07:40.993][Thread:Recovery Thread][ResultSet@33782c50]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:40.994][Thread:Recovery Thread][ResultSet@33782c50]markClosed () called
+[jcc][Time:2022-12-22-05:07:40.994][Thread:Recovery Thread][Statement@52b0f99b]close () called
+[jcc][Time:2022-12-22-05:07:40.994][Thread:Recovery Thread][Connection@df90549d]prepareStatement (INSERT INTO WAS_TRAN_LOG_WLP1 (SERVER_NAME, SERVICE_ID, RU_ID, RUSECTION_ID, RUSECTION_DATA_INDEX, DATA) VALUES (?,?,?,?,?,?), 1003, 1007) called
+[jcc][Time:2022-12-22-05:07:40.994][Thread:Recovery Thread][Connection@df90549d]prepareStatement () returned com.ibm.db2.jcc.am.gp@bce199cc
+[jcc][Time:2022-12-22-05:07:40.995][Thread:Recovery Thread][PreparedStatement@bce199cc]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:07:40.995][Thread:Recovery Thread][PreparedStatement@bce199cc]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:07:40.995][Thread:Recovery Thread][PreparedStatement@bce199cc]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:07:40.995][Thread:Recovery Thread][PreparedStatement@bce199cc]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:40.995][Thread:Recovery Thread][PreparedStatement@bce199cc]setLong (4, 253) called
+[jcc][Time:2022-12-22-05:07:40.996][Thread:Recovery Thread][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:40.996][Thread:Recovery Thread][PreparedStatement@bce199cc]setBytes (6, { 0xb3, 0xa7, 0x34, 0x83, 0x14, 0xfc, 0xcf, 0x92, 0x6a, 0x93, 0xf6, 0x7f, 0x94, 0xfc, 0xa2, 0x8d, 0x47, 0x6a, 0xa7, 0xfe }) called
+[jcc][Time:2022-12-22-05:07:40.996][Thread:Recovery Thread][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]setLong (4, 254) called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]setLong (4, 255) called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]setBytes (6, { 0x64, 0x65, 0x66, 0x61, 0x75, 0x6c, 0x74, 0x53, 0x65, 0x72, 0x76, 0x65, 0x72 }) called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.000][Thread:Recovery Thread][PreparedStatement@bce199cc]executeBatch () called
+[jcc][Time:2022-12-22-05:07:41.002][Thread:Recovery Thread][PreparedStatement@bce199cc]executeBatch () returned { 1, 1, 1 }
+[jcc][Time:2022-12-22-05:07:41.002][Thread:Recovery Thread][PreparedStatement@bce199cc]getMoreResults () called
+[jcc][Time:2022-12-22-05:07:41.002][Thread:Recovery Thread][PreparedStatement@bce199cc]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:07:41.002][Thread:Recovery Thread][PreparedStatement@bce199cc]getUpdateCount () called
+[jcc][Time:2022-12-22-05:07:41.002][Thread:Recovery Thread][PreparedStatement@bce199cc]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:07:41.002][Thread:Recovery Thread][PreparedStatement@bce199cc]clearParameters () called
+[jcc][Time:2022-12-22-05:07:41.002][Thread:Recovery Thread][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0007
+[jcc][Time:2022-12-22-05:07:41.006][Thread:Recovery Thread][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:07:41.006][Thread:Recovery Thread][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:07:41.006][Thread:Recovery Thread][Connection@df90549d]isInDB2UnitOfWork () returned false
+[jcc][Time:2022-12-22-05:07:41.007][Thread:Recovery Thread][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:07:41.007][Thread:Recovery Thread][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:07:41.007][Thread:Recovery Thread][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:07:41.007][Thread:Recovery Thread][Connection@df90549d]createStatement () returned Statement@ff1d9405
+[jcc][Time:2022-12-22-05:07:41.007][Thread:Recovery Thread][Statement@ff1d9405]executeQuery (SELECT SERVER_NAME FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:07:41.009][Thread:Recovery Thread][Statement@ff1d9405]executeQuery () returned ResultSet@64ec0c19
+[jcc][Time:2022-12-22-05:07:41.009][Thread:Recovery Thread][ResultSet@64ec0c19]next () called
+[jcc][Time:2022-12-22-05:07:41.010][Thread:Recovery Thread][ResultSet@64ec0c19]next () returned true
+[jcc][Time:2022-12-22-05:07:41.010][Thread:Recovery Thread][ResultSet@64ec0c19]getString (1) called
+[jcc][Time:2022-12-22-05:07:41.010][Thread:Recovery Thread][ResultSet@64ec0c19]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:07:41.010][Thread:Recovery Thread][ResultSet@64ec0c19]close () called
+[jcc][Time:2022-12-22-05:07:41.010][Thread:Recovery Thread][ResultSet@64ec0c19]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][ResultSet@64ec0c19]markClosed () called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][Statement@ff1d9405]close () called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][Connection@df90549d]prepareStatement (INSERT INTO WAS_PARTNER_LOG_WLP1 (SERVER_NAME, SERVICE_ID, RU_ID, RUSECTION_ID, RUSECTION_DATA_INDEX, DATA) VALUES (?,?,?,?,?,?), 1003, 1007) called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][Connection@df90549d]prepareStatement () returned com.ibm.db2.jcc.am.gp@98a1184
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][PreparedStatement@98a1184]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][PreparedStatement@98a1184]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][PreparedStatement@98a1184]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (4, 32) called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][PreparedStatement@98a1184]setBytes (6, { 0x0, 0x0, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:07:41.011][Thread:Recovery Thread][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (4, 253) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setBytes (6, { 0xb3, 0xa7, 0x34, 0x83, 0x14, 0xfc, 0xcf, 0x92, 0x6a, 0x93, 0xf6, 0x7f, 0x94, 0xfc, 0xa2, 0x8d, 0x47, 0x6a, 0xa7, 0xfe }) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (4, 254) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setBytes (6, { 0x0, 0x0, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (4, 30) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setBytes (6, { 0x0, 0x0, 0x0, 0x2 }) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (4, 255) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setBytes (6, { 0x64, 0x65, 0x66, 0x61, 0x75, 0x6c, 0x74, 0x53, 0x65, 0x72, 0x76, 0x65, 0x72 }) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:07:41.014][Thread:Recovery Thread][PreparedStatement@98a1184]setLong (4, 31) called
+[jcc][Time:2022-12-22-05:07:41.015][Thread:Recovery Thread][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:07:41.015][Thread:Recovery Thread][PreparedStatement@98a1184]setBytes (6, { 0x0, 0x0, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:07:41.015][Thread:Recovery Thread][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:07:41.015][Thread:Recovery Thread][PreparedStatement@98a1184]executeBatch () called
+[jcc][Time:2022-12-22-05:07:41.016][Thread:Recovery Thread][PreparedStatement@98a1184]executeBatch () returned { 1, 1, 1, 1, 1, 1 }
+[jcc][Time:2022-12-22-05:07:41.016][Thread:Recovery Thread][PreparedStatement@98a1184]getMoreResults () called
+[jcc][Time:2022-12-22-05:07:41.016][Thread:Recovery Thread][PreparedStatement@98a1184]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:07:41.016][Thread:Recovery Thread][PreparedStatement@98a1184]getUpdateCount () called
+[jcc][Time:2022-12-22-05:07:41.016][Thread:Recovery Thread][PreparedStatement@98a1184]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:07:41.016][Thread:Recovery Thread][PreparedStatement@98a1184]clearParameters () called
+[jcc][Time:2022-12-22-05:07:41.016][Thread:Recovery Thread][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0008
+[jcc][Time:2022-12-22-05:07:41.024][Thread:Recovery Thread][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:07:41.024][Thread:Recovery Thread][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:07:41.024][Thread:Recovery Thread][Connection@df90549d]isInDB2UnitOfWork () returned false
+
+
+--- execute 1st transaction ---
+
+
+[jcc][Time:2022-12-22-05:08:59.230][Thread:Default Executor-thread-8][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:08:59.230][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:08:59.230][Thread:Default Executor-thread-8][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:08:59.230][Thread:Default Executor-thread-8][Connection@df90549d]createStatement () returned Statement@1e829d10
+[jcc][Time:2022-12-22-05:08:59.231][Thread:Default Executor-thread-8][Statement@1e829d10]executeQuery (SELECT SERVER_NAME FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:08:59.232][Thread:Default Executor-thread-8][Statement@1e829d10]executeQuery () returned ResultSet@d1f69e0f
+[jcc][Time:2022-12-22-05:08:59.232][Thread:Default Executor-thread-8][ResultSet@d1f69e0f]next () called
+[jcc][Time:2022-12-22-05:08:59.233][Thread:Default Executor-thread-8][ResultSet@d1f69e0f]next () returned true
+[jcc][Time:2022-12-22-05:08:59.234][Thread:Default Executor-thread-8][ResultSet@d1f69e0f]getString (1) called
+[jcc][Time:2022-12-22-05:08:59.234][Thread:Default Executor-thread-8][ResultSet@d1f69e0f]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:08:59.234][Thread:Default Executor-thread-8][ResultSet@d1f69e0f]close () called
+[jcc][Time:2022-12-22-05:08:59.234][Thread:Default Executor-thread-8][ResultSet@d1f69e0f]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:08:59.236][Thread:Default Executor-thread-8][ResultSet@d1f69e0f]markClosed () called
+[jcc][Time:2022-12-22-05:08:59.236][Thread:Default Executor-thread-8][Statement@1e829d10]close () called
+[jcc][Time:2022-12-22-05:08:59.236][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:08:59.236][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:08:59.237][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:08:59.237][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:08:59.237][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setLong (4, 34) called
+[jcc][Time:2022-12-22-05:08:59.237][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:08:59.237][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setBytes (6, { 0x0, 0xac, 0xed, 0x0, 0x5, 0x73, 0x72, 0x0, 0x25, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x74, 0x78, 0x2e, 0x6a, 0x74, 0x61, 0x2e, 0x69, 0x6d, 0x70, 0x6c, 0x2e, 0x58, 0x41, 0x52, 0x65, 0x63, 0x6f, 0x76, 0x65, 0x72, 0x79, 0x57, 0x72, 0x61, 0x70, 0x70, 0x65, 0x72, 0xc6, 0xb3, 0x98, 0xd1, 0x68, 0xc3, 0xfb, 0xfc, 0x2, 0x0, 0x2, 0x4c, 0x0, 0x16, 0x5f, 0x78, 0x61, 0x52, 0x65, 0x73, 0x46, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x43, 0x6c, 0x61, 0x73, 0x73, 0x4e, 0x61, 0x6d, 0x65, 0x74, 0x0, 0x12, 0x4c, 0x6a, 0x61, 0x76, 0x61, 0x2f, 0x6c, 0x61, 0x6e, 0x67, 0x2f, 0x53, 0x74, 0x72, 0x69, 0x6e, 0x67, 0x3b, 0x4c, 0x0, 0xa, 0x5f, 0x78, 0x61, 0x52, 0x65, 0x73, 0x49, 0x6e, 0x66, 0x6f, 0x74, 0x0, 0x16, 0x4c, 0x6a, 0x61, 0x76, 0x61, 0x2f, 0x69, 0x6f, 0x2f, 0x53, 0x65, 0x72, 0x69, 0x61, 0x6c, 0x69, 0x7a, 0x61, 0x62, 0x6c, 0x65, 0x3b, 0x78, 0x70, 0x74, 0x0, 0x34, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x6a, 0x70, 0x2e, 0x73, 0x77, 0x67, 0x2e, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x78, 0x61, 0x2e, 0x77, 0x6c, 0x70, 0x38, 0x35, 0x35, 0x2e, 0x44, 0x75, 0x6d, 0x6d, 0x79, 0x58, 0x41, 0x52, 0x65, 0x73, 0x6f, 0x75, 0x72, 0x63, 0x65, 0x46, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x73, 0x72, 0x0, 0x31, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x6a, 0x70, 0x2e, 0x73, 0x77, 0x67, 0x2e, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x78, 0x61, 0x2e, 0x77, 0x6c, 0x70, 0x38, 0x35, 0x35, 0x2e, 0x44, 0x75, 0x6d, 0x6d, 0x79, 0x58, 0x41, 0x52, 0x65, 0x73, 0x6f, 0x75, 0x72, 0x63, 0x65, 0x49, 0x6e, 0x66, 0x6f, 0xd2, 0xf6, 0x2b, 0x51, 0xc8, 0xd6, 0x64, 0x4e, 0x2, 0x0, 0x1, 0x4c, 0x0, 0x6, 0x78, 0x61, 0x4e, 0x61, 0x6d, 0x65, 0x71, 0x0, 0x7e, 0x0, 0x1, 0x78, 0x70, 0x74, 0x0, 0x6, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x31 }) called
+[jcc][Time:2022-12-22-05:08:59.238][Thread:Default Executor-thread-8][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:08:59.238][Thread:Default Executor-thread-8][PreparedStatement@98a1184]executeBatch () called
+[jcc][Time:2022-12-22-05:08:59.246][Thread:Default Executor-thread-8][PreparedStatement@98a1184]executeBatch () returned { 1 }
+[jcc][Time:2022-12-22-05:08:59.246][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getMoreResults () called
+[jcc][Time:2022-12-22-05:08:59.246][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:08:59.246][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getUpdateCount () called
+[jcc][Time:2022-12-22-05:08:59.246][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:08:59.246][Thread:Default Executor-thread-8][PreparedStatement@98a1184]clearParameters () called
+[jcc][Time:2022-12-22-05:08:59.246][Thread:Default Executor-thread-8][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0009
+[jcc][Time:2022-12-22-05:08:59.254][Thread:Default Executor-thread-8][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:08:59.256][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:08:59.258][Thread:Default Executor-thread-8][Connection@df90549d]isInDB2UnitOfWork () returned false
+
+[jcc][Time:2022-12-22-05:09:00.469][Thread:Default Executor-thread-8][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:09:00.469][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:09:00.469][Thread:Default Executor-thread-8][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:09:00.469][Thread:Default Executor-thread-8][Connection@df90549d]createStatement () returned Statement@12823b39
+[jcc][Time:2022-12-22-05:09:00.469][Thread:Default Executor-thread-8][Statement@12823b39]executeQuery (SELECT SERVER_NAME FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:09:00.470][Thread:Default Executor-thread-8][Statement@12823b39]executeQuery () returned ResultSet@9c7811f3
+[jcc][Time:2022-12-22-05:09:00.470][Thread:Default Executor-thread-8][ResultSet@9c7811f3]next () called
+[jcc][Time:2022-12-22-05:09:00.471][Thread:Default Executor-thread-8][ResultSet@9c7811f3]next () returned true
+[jcc][Time:2022-12-22-05:09:00.471][Thread:Default Executor-thread-8][ResultSet@9c7811f3]getString (1) called
+[jcc][Time:2022-12-22-05:09:00.471][Thread:Default Executor-thread-8][ResultSet@9c7811f3]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:09:00.471][Thread:Default Executor-thread-8][ResultSet@9c7811f3]close () called
+[jcc][Time:2022-12-22-05:09:00.471][Thread:Default Executor-thread-8][ResultSet@9c7811f3]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:09:00.472][Thread:Default Executor-thread-8][ResultSet@9c7811f3]markClosed () called
+[jcc][Time:2022-12-22-05:09:00.473][Thread:Default Executor-thread-8][Statement@12823b39]close () called
+[jcc][Time:2022-12-22-05:09:00.473][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:09:00.473][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:09:00.473][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:09:00.473][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:09:00.474][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setLong (4, 34) called
+[jcc][Time:2022-12-22-05:09:00.474][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:09:00.476][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setBytes (6, { 0x0, 0xac, 0xed, 0x0, 0x5, 0x73, 0x72, 0x0, 0x25, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x74, 0x78, 0x2e, 0x6a, 0x74, 0x61, 0x2e, 0x69, 0x6d, 0x70, 0x6c, 0x2e, 0x58, 0x41, 0x52, 0x65, 0x63, 0x6f, 0x76, 0x65, 0x72, 0x79, 0x57, 0x72, 0x61, 0x70, 0x70, 0x65, 0x72, 0xc6, 0xb3, 0x98, 0xd1, 0x68, 0xc3, 0xfb, 0xfc, 0x2, 0x0, 0x2, 0x4c, 0x0, 0x16, 0x5f, 0x78, 0x61, 0x52, 0x65, 0x73, 0x46, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x43, 0x6c, 0x61, 0x73, 0x73, 0x4e, 0x61, 0x6d, 0x65, 0x74, 0x0, 0x12, 0x4c, 0x6a, 0x61, 0x76, 0x61, 0x2f, 0x6c, 0x61, 0x6e, 0x67, 0x2f, 0x53, 0x74, 0x72, 0x69, 0x6e, 0x67, 0x3b, 0x4c, 0x0, 0xa, 0x5f, 0x78, 0x61, 0x52, 0x65, 0x73, 0x49, 0x6e, 0x66, 0x6f, 0x74, 0x0, 0x16, 0x4c, 0x6a, 0x61, 0x76, 0x61, 0x2f, 0x69, 0x6f, 0x2f, 0x53, 0x65, 0x72, 0x69, 0x61, 0x6c, 0x69, 0x7a, 0x61, 0x62, 0x6c, 0x65, 0x3b, 0x78, 0x70, 0x74, 0x0, 0x18, 0x28, 0x6a, 0x6e, 0x64, 0x69, 0x4e, 0x61, 0x6d, 0x65, 0x3d, 0x6a, 0x6d, 0x73, 0x2f, 0x63, 0x66, 0x5f, 0x71, 0x6d, 0x74, 0x65, 0x73, 0x74, 0x29, 0x73, 0x72, 0x0, 0x13, 0x6a, 0x61, 0x76, 0x61, 0x2e, 0x75, 0x74, 0x69, 0x6c, 0x2e, 0x41, 0x72, 0x72, 0x61, 0x79, 0x4c, 0x69, 0x73, 0x74, 0x78, 0x81, 0xd2, 0x1d, 0x99, 0xc7, 0x61, 0x9d, 0x3, 0x0, 0x1, 0x49, 0x0, 0x4, 0x73, 0x69, 0x7a, 0x65, 0x78, 0x70, 0x0, 0x0, 0x2, 0x4c, 0x77, 0x4, 0x0, 0x0, 0x2, 0x4c, 0x73, 0x72, 0x0, 0xe, 0x6a, 0x61, 0x76, 0x61, 0x2e, 0x6c, 0x61, 0x6e, 0x67, 0x2e, 0x42, 0x79, 0x74, 0x65, 0x9c, 0x4e, 0x60, 0x84, 0xee, 0x50, 0xf5, 0x1c, 0x2, 0x0, 0x1, 0x42, 0x0, 0x5, 0x76, 0x61, 0x6c, 0x75, 0x65, 0x78, 0x72, 0x0, 0x10, 0x6a, 0x61, 0x76, 0x61, 0x2e, 0x6c, 0x61, 0x6e, 0x67, 0x2e, 0x4e, 0x75, 0x6d, 0x62, 0x65, 0x72, 0x86, 0xac, 0x95, 0x1d, 0xb, 0x94, 0xe0, 0x8b, 0x2, 0x0, 0x0, 0x78, 0x70, 0xac, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xed, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x0, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x5, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x73, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x72, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x20, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x63, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x6f, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x6d, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x2e, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x69, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x62, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x13, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x65, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x6a, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x13, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x32, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x13, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x43, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x4d, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x6e, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x66, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x67, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x44, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x61, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x74, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x49, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x70, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x6c, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x1c, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x3d, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x99, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x81, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xad, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xf0, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xd6, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x3, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x21, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xf, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x5f, 0x71, 0x0, 0x7e, 0x0, 0x15, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x68, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x75, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x21, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x2d, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x50, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x79, 0x71, 0x0, 0x7e, 0x0, 0x21, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x8, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x30, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x2f, 0x71, 0x0, 0x7e, 0x0, 0x21, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x13, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x76, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x21, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x30, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x5a, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x11, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2f, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x4c, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x6, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x4b, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x32, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x35, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x2f, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x3d, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x53, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x3b, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x33, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x31, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x4e, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x71, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x7e, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x1, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xc, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x1e, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x3b, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x32, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x42, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x43, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x7, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x42, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x43, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x15, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x31, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x2d, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x35, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x3d, 0x71, 0x0, 0x7e, 0x0, 0x30, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x3d, 0x71, 0x0, 0x7e, 0x0, 0x1a, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0x3f, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x31, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x3b, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x32, 0x71, 0x0, 0x7e, 0x0, 0x3e, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x42, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x43, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x36, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1d, 0x71, 0x0, 0x7e, 0x0, 0x30, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x40, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x42, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x43, 0x71, 0x0, 0x7e, 0x0, 0x39, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x4, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x64, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x42, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x43, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x78, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xff, 0x71, 0x0, 0x7e, 0x0, 0x4b, 0x71, 0x0, 0x7e, 0x0, 0x4b, 0x71, 0x0, 0x7e, 0x0, 0x4b, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x2b, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xe7, 0x71, 0x0, 0x7e, 0x0, 0x43, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x46, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x32, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x5b, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x5d, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x3d, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x33, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x4e, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x32, 0x71, 0x0, 0x7e, 0x0, 0x4f, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x2e, 0x71, 0x0, 0x7e, 0x0, 0x41, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x50, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x30, 0x71, 0x0, 0x7e, 0x0, 0x53, 0x71, 0x0, 0x7e, 0x0, 0x53, 0x71, 0x0, 0x7e, 0x0, 0x53, 0x71, 0x0, 0x7e, 0x0, 0x53, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x2d, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x31, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x12, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x3d, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x4a, 0x71, 0x0, 0x7e, 0x0, 0x1a, 0x71, 0x0, 0x7e, 0x0, 0x3e, 0x71, 0x0, 0x7e, 0x0, 0x19, 0x71, 0x0, 0x7e, 0x0, 0x4e, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x9, 0x71, 0x0, 0x7e, 0x0, 0x30, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x49, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x1c, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x1b, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0x49, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x38, 0x71, 0x0, 0x7e, 0x0, 0x17, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x35, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x13, 0x71, 0x0, 0x7e, 0x0, 0x30, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x14, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x13, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x48, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2f, 0x71, 0x0, 0x7e, 0x0, 0x1a, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0xc, 0x71, 0x0, 0x7e, 0x0, 0x45, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xda, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xc1, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xc3, 0x71, 0x0, 0x7e, 0x0, 0x36, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x60, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xd1, 0x71, 0x0, 0x7e, 0x0, 0x2b, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x2, 0x71, 0x0, 0x7e, 0x0, 0x4e, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0xa, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x49, 0x71, 0x0, 0x7e, 0x0, 0x4e, 0x71, 0x0, 0x7e, 0x0, 0x1f, 0x71, 0x0, 0x7e, 0x0, 0x10, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x21, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x57, 0x71, 0x0, 0x7e, 0x0, 0x20, 0x71, 0x0, 0x7e, 0x0, 0x2f, 0x71, 0x0, 0x7e, 0x0, 0xe, 0x71, 0x0, 0x7e, 0x0, 0x16, 0x71, 0x0, 0x7e, 0x0, 0xd, 0x71, 0x0, 0x7e, 0x0, 0x2f, 0x71, 0x0, 0x7e, 0x0, 0x11, 0x71, 0x0, 0x7e, 0x0, 0x23, 0x71, 0x0, 0x7e, 0x0, 0x49, 0x71, 0x0, 0x7e, 0x0, 0x4a, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x3f, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x40, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x77, 0x71, 0x0, 0x7e, 0x0, 0x33, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x73, 0x71, 0x0, 0x7e, 0x0, 0x7, 0x10, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0xb, 0x71, 0x0, 0x7e, 0x0, 0x4a, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0x22, 0x71, 0x0, 0x7e, 0x0, 0x4a, 0x78 }) called
+[jcc][Time:2022-12-22-05:09:00.476][Thread:Default Executor-thread-8][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:09:00.476][Thread:Default Executor-thread-8][PreparedStatement@98a1184]executeBatch () called
+[jcc][Time:2022-12-22-05:09:00.486][Thread:Default Executor-thread-8][PreparedStatement@98a1184]executeBatch () returned { 1 }
+[jcc][Time:2022-12-22-05:09:00.486][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getMoreResults () called
+[jcc][Time:2022-12-22-05:09:00.486][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:09:00.486][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getUpdateCount () called
+[jcc][Time:2022-12-22-05:09:00.486][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:09:00.486][Thread:Default Executor-thread-8][PreparedStatement@98a1184]clearParameters () called
+[jcc][Time:2022-12-22-05:09:00.487][Thread:Default Executor-thread-8][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.000A
+[jcc][Time:2022-12-22-05:09:00.492][Thread:Default Executor-thread-8][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:09:00.492][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:09:00.492][Thread:Default Executor-thread-8][Connection@df90549d]isInDB2UnitOfWork () returned false
+
+[jcc][Time:2022-12-22-05:09:00.645][Thread:Default Executor-thread-8][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:09:00.646][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:09:00.646][Thread:Default Executor-thread-8][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:09:00.646][Thread:Default Executor-thread-8][Connection@df90549d]createStatement () returned Statement@e5aafeb8
+[jcc][Time:2022-12-22-05:09:00.646][Thread:Default Executor-thread-8][Statement@e5aafeb8]executeQuery (SELECT SERVER_NAME FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:09:00.647][Thread:Default Executor-thread-8][Statement@e5aafeb8]executeQuery () returned ResultSet@d8b2989a
+[jcc][Time:2022-12-22-05:09:00.648][Thread:Default Executor-thread-8][ResultSet@d8b2989a]next () called
+[jcc][Time:2022-12-22-05:09:00.649][Thread:Default Executor-thread-8][ResultSet@d8b2989a]next () returned true
+[jcc][Time:2022-12-22-05:09:00.649][Thread:Default Executor-thread-8][ResultSet@d8b2989a]getString (1) called
+[jcc][Time:2022-12-22-05:09:00.649][Thread:Default Executor-thread-8][ResultSet@d8b2989a]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:09:00.649][Thread:Default Executor-thread-8][ResultSet@d8b2989a]close () called
+[jcc][Time:2022-12-22-05:09:00.649][Thread:Default Executor-thread-8][ResultSet@d8b2989a]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:09:00.651][Thread:Default Executor-thread-8][ResultSet@d8b2989a]markClosed () called
+[jcc][Time:2022-12-22-05:09:00.651][Thread:Default Executor-thread-8][Statement@e5aafeb8]close () called
+[jcc][Time:2022-12-22-05:09:00.651][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:09:00.651][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:09:00.652][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:09:00.652][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:09:00.652][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setLong (4, 34) called
+[jcc][Time:2022-12-22-05:09:00.652][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:09:00.652][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setBytes (6, { 0x0, 0xac, 0xed, 0x0, 0x5, 0x73, 0x72, 0x0, 0x25, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x74, 0x78, 0x2e, 0x6a, 0x74, 0x61, 0x2e, 0x69, 0x6d, 0x70, 0x6c, 0x2e, 0x58, 0x41, 0x52, 0x65, 0x63, 0x6f, 0x76, 0x65, 0x72, 0x79, 0x57, 0x72, 0x61, 0x70, 0x70, 0x65, 0x72, 0xc6, 0xb3, 0x98, 0xd1, 0x68, 0xc3, 0xfb, 0xfc, 0x2, 0x0, 0x2, 0x4c, 0x0, 0x16, 0x5f, 0x78, 0x61, 0x52, 0x65, 0x73, 0x46, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x43, 0x6c, 0x61, 0x73, 0x73, 0x4e, 0x61, 0x6d, 0x65, 0x74, 0x0, 0x12, 0x4c, 0x6a, 0x61, 0x76, 0x61, 0x2f, 0x6c, 0x61, 0x6e, 0x67, 0x2f, 0x53, 0x74, 0x72, 0x69, 0x6e, 0x67, 0x3b, 0x4c, 0x0, 0xa, 0x5f, 0x78, 0x61, 0x52, 0x65, 0x73, 0x49, 0x6e, 0x66, 0x6f, 0x74, 0x0, 0x16, 0x4c, 0x6a, 0x61, 0x76, 0x61, 0x2f, 0x69, 0x6f, 0x2f, 0x53, 0x65, 0x72, 0x69, 0x61, 0x6c, 0x69, 0x7a, 0x61, 0x62, 0x6c, 0x65, 0x3b, 0x78, 0x70, 0x74, 0x0, 0x34, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x6a, 0x70, 0x2e, 0x73, 0x77, 0x67, 0x2e, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x78, 0x61, 0x2e, 0x77, 0x6c, 0x70, 0x38, 0x35, 0x35, 0x2e, 0x44, 0x75, 0x6d, 0x6d, 0x79, 0x58, 0x41, 0x52, 0x65, 0x73, 0x6f, 0x75, 0x72, 0x63, 0x65, 0x46, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x73, 0x72, 0x0, 0x31, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x6a, 0x70, 0x2e, 0x73, 0x77, 0x67, 0x2e, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x78, 0x61, 0x2e, 0x77, 0x6c, 0x70, 0x38, 0x35, 0x35, 0x2e, 0x44, 0x75, 0x6d, 0x6d, 0x79, 0x58, 0x41, 0x52, 0x65, 0x73, 0x6f, 0x75, 0x72, 0x63, 0x65, 0x49, 0x6e, 0x66, 0x6f, 0xd2, 0xf6, 0x2b, 0x51, 0xc8, 0xd6, 0x64, 0x4e, 0x2, 0x0, 0x1, 0x4c, 0x0, 0x6, 0x78, 0x61, 0x4e, 0x61, 0x6d, 0x65, 0x71, 0x0, 0x7e, 0x0, 0x1, 0x78, 0x70, 0x74, 0x0, 0x6, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x32 }) called
+[jcc][Time:2022-12-22-05:09:00.652][Thread:Default Executor-thread-8][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:09:00.652][Thread:Default Executor-thread-8][PreparedStatement@98a1184]executeBatch () called
+[jcc][Time:2022-12-22-05:09:00.657][Thread:Default Executor-thread-8][PreparedStatement@98a1184]executeBatch () returned { 1 }
+[jcc][Time:2022-12-22-05:09:00.658][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getMoreResults () called
+[jcc][Time:2022-12-22-05:09:00.658][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:09:00.658][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getUpdateCount () called
+[jcc][Time:2022-12-22-05:09:00.658][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:09:00.658][Thread:Default Executor-thread-8][PreparedStatement@98a1184]clearParameters () called
+[jcc][Time:2022-12-22-05:09:00.658][Thread:Default Executor-thread-8][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.000B
+[jcc][Time:2022-12-22-05:09:00.663][Thread:Default Executor-thread-8][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:09:00.664][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:09:00.664][Thread:Default Executor-thread-8][Connection@df90549d]isInDB2UnitOfWork () returned false
+
+[jcc][Time:2022-12-22-05:09:00.664][Thread:Default Executor-thread-8][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:09:00.665][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:09:00.665][Thread:Default Executor-thread-8][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:09:00.665][Thread:Default Executor-thread-8][Connection@df90549d]createStatement () returned Statement@e5d6e056
+[jcc][Time:2022-12-22-05:09:00.665][Thread:Default Executor-thread-8][Statement@e5d6e056]executeQuery (SELECT SERVER_NAME FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:09:00.667][Thread:Default Executor-thread-8][Statement@e5d6e056]executeQuery () returned ResultSet@893073e7
+[jcc][Time:2022-12-22-05:09:00.667][Thread:Default Executor-thread-8][ResultSet@893073e7]next () called
+[jcc][Time:2022-12-22-05:09:00.668][Thread:Default Executor-thread-8][ResultSet@893073e7]next () returned true
+[jcc][Time:2022-12-22-05:09:00.668][Thread:Default Executor-thread-8][ResultSet@893073e7]getString (1) called
+[jcc][Time:2022-12-22-05:09:00.668][Thread:Default Executor-thread-8][ResultSet@893073e7]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:09:00.668][Thread:Default Executor-thread-8][ResultSet@893073e7]close () called
+[jcc][Time:2022-12-22-05:09:00.668][Thread:Default Executor-thread-8][ResultSet@893073e7]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:09:00.669][Thread:Default Executor-thread-8][ResultSet@893073e7]markClosed () called
+[jcc][Time:2022-12-22-05:09:00.670][Thread:Default Executor-thread-8][Statement@e5d6e056]close () called
+[jcc][Time:2022-12-22-05:09:00.670][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:09:00.670][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:09:00.670][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:09:00.670][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setLong (3, 5) called
+[jcc][Time:2022-12-22-05:09:00.670][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setLong (4, 34) called
+[jcc][Time:2022-12-22-05:09:00.670][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:09:00.671][Thread:Default Executor-thread-8][PreparedStatement@98a1184]setBytes (6, { 0x0, 0xac, 0xed, 0x0, 0x5, 0x73, 0x72, 0x0, 0x25, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x74, 0x78, 0x2e, 0x6a, 0x74, 0x61, 0x2e, 0x69, 0x6d, 0x70, 0x6c, 0x2e, 0x58, 0x41, 0x52, 0x65, 0x63, 0x6f, 0x76, 0x65, 0x72, 0x79, 0x57, 0x72, 0x61, 0x70, 0x70, 0x65, 0x72, 0xc6, 0xb3, 0x98, 0xd1, 0x68, 0xc3, 0xfb, 0xfc, 0x2, 0x0, 0x2, 0x4c, 0x0, 0x16, 0x5f, 0x78, 0x61, 0x52, 0x65, 0x73, 0x46, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x43, 0x6c, 0x61, 0x73, 0x73, 0x4e, 0x61, 0x6d, 0x65, 0x74, 0x0, 0x12, 0x4c, 0x6a, 0x61, 0x76, 0x61, 0x2f, 0x6c, 0x61, 0x6e, 0x67, 0x2f, 0x53, 0x74, 0x72, 0x69, 0x6e, 0x67, 0x3b, 0x4c, 0x0, 0xa, 0x5f, 0x78, 0x61, 0x52, 0x65, 0x73, 0x49, 0x6e, 0x66, 0x6f, 0x74, 0x0, 0x16, 0x4c, 0x6a, 0x61, 0x76, 0x61, 0x2f, 0x69, 0x6f, 0x2f, 0x53, 0x65, 0x72, 0x69, 0x61, 0x6c, 0x69, 0x7a, 0x61, 0x62, 0x6c, 0x65, 0x3b, 0x78, 0x70, 0x74, 0x0, 0x34, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x6a, 0x70, 0x2e, 0x73, 0x77, 0x67, 0x2e, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x78, 0x61, 0x2e, 0x77, 0x6c, 0x70, 0x38, 0x35, 0x35, 0x2e, 0x44, 0x75, 0x6d, 0x6d, 0x79, 0x58, 0x41, 0x52, 0x65, 0x73, 0x6f, 0x75, 0x72, 0x63, 0x65, 0x46, 0x61, 0x63, 0x74, 0x6f, 0x72, 0x79, 0x73, 0x72, 0x0, 0x31, 0x63, 0x6f, 0x6d, 0x2e, 0x69, 0x62, 0x6d, 0x2e, 0x6a, 0x70, 0x2e, 0x73, 0x77, 0x67, 0x2e, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x78, 0x61, 0x2e, 0x77, 0x6c, 0x70, 0x38, 0x35, 0x35, 0x2e, 0x44, 0x75, 0x6d, 0x6d, 0x79, 0x58, 0x41, 0x52, 0x65, 0x73, 0x6f, 0x75, 0x72, 0x63, 0x65, 0x49, 0x6e, 0x66, 0x6f, 0xd2, 0xf6, 0x2b, 0x51, 0xc8, 0xd6, 0x64, 0x4e, 0x2, 0x0, 0x1, 0x4c, 0x0, 0x6, 0x78, 0x61, 0x4e, 0x61, 0x6d, 0x65, 0x71, 0x0, 0x7e, 0x0, 0x1, 0x78, 0x70, 0x74, 0x0, 0x6, 0x64, 0x75, 0x6d, 0x6d, 0x79, 0x33 }) called
+[jcc][Time:2022-12-22-05:09:00.671][Thread:Default Executor-thread-8][PreparedStatement@98a1184]addBatch () called
+[jcc][Time:2022-12-22-05:09:00.671][Thread:Default Executor-thread-8][PreparedStatement@98a1184]executeBatch () called
+[jcc][Time:2022-12-22-05:09:00.676][Thread:Default Executor-thread-8][PreparedStatement@98a1184]executeBatch () returned { 1 }
+[jcc][Time:2022-12-22-05:09:00.676][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getMoreResults () called
+[jcc][Time:2022-12-22-05:09:00.676][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:09:00.676][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getUpdateCount () called
+[jcc][Time:2022-12-22-05:09:00.676][Thread:Default Executor-thread-8][PreparedStatement@98a1184]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:09:00.676][Thread:Default Executor-thread-8][PreparedStatement@98a1184]clearParameters () called
+[jcc][Time:2022-12-22-05:09:00.676][Thread:Default Executor-thread-8][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.000C
+[jcc][Time:2022-12-22-05:09:00.681][Thread:Default Executor-thread-8][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:09:00.682][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:09:00.682][Thread:Default Executor-thread-8][Connection@df90549d]isInDB2UnitOfWork () returned false
+
+[jcc][Time:2022-12-22-05:09:20.689][Thread:Default Executor-thread-8][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:09:20.689][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:09:20.689][Thread:Default Executor-thread-8][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:09:20.689][Thread:Default Executor-thread-8][Connection@df90549d]createStatement () returned Statement@8c8303a2
+[jcc][Time:2022-12-22-05:09:20.689][Thread:Default Executor-thread-8][Statement@8c8303a2]executeQuery (SELECT SERVER_NAME FROM WAS_TRAN_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:09:20.690][Thread:Default Executor-thread-8][Statement@8c8303a2]executeQuery () returned ResultSet@4ef5ac30
+[jcc][Time:2022-12-22-05:09:20.691][Thread:Default Executor-thread-8][ResultSet@4ef5ac30]next () called
+[jcc][Time:2022-12-22-05:09:20.692][Thread:Default Executor-thread-8][ResultSet@4ef5ac30]next () returned true
+[jcc][Time:2022-12-22-05:09:20.692][Thread:Default Executor-thread-8][ResultSet@4ef5ac30]getString (1) called
+[jcc][Time:2022-12-22-05:09:20.693][Thread:Default Executor-thread-8][ResultSet@4ef5ac30]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:09:20.693][Thread:Default Executor-thread-8][ResultSet@4ef5ac30]close () called
+[jcc][Time:2022-12-22-05:09:20.693][Thread:Default Executor-thread-8][ResultSet@4ef5ac30]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][ResultSet@4ef5ac30]markClosed () called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][Statement@8c8303a2]close () called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (4, 0) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setBytes (6, { 0x3 }) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:09:20.694][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setShort (5, 1) called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x2, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setShort (5, 2) called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x3, 0x0, 0x2 }) called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:09:20.695][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setShort (5, 3) called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x4, 0x0, 0x3 }) called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setShort (5, 4) called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x5, 0x0, 0x4 }) called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setLong (4, 3) called
+[jcc][Time:2022-12-22-05:09:20.696][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:09:20.697][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]setBytes (6, { 0x57, 0x41, 0x53, 0x44, 0x0, 0x0, 0x0, 0x24, 0x0, 0x0, 0x0, 0x28, 0x0, 0x0, 0x1, 0x85, 0x38, 0x3c, 0x12, 0xb4, 0x0, 0x0, 0x0, 0x1, 0x60, 0xf0, 0x4a, 0xd4, 0xb3, 0xa7, 0x34, 0x83, 0x14, 0xfc, 0xcf, 0x92, 0x6a, 0x93, 0xf6, 0x7f, 0x94, 0xfc, 0xa2, 0x8d, 0x47, 0x6a, 0xa7, 0xfe, 0x0, 0x0, 0x1, 0x85, 0x38, 0x3c, 0x12, 0xb4, 0x0, 0x0, 0x0, 0x1, 0x60, 0xf0, 0x4a, 0xd4, 0xb3, 0xa7, 0x34, 0x83, 0x14, 0xfc, 0xcf, 0x92, 0x6a, 0x93, 0xf6, 0x7f, 0x94, 0xfc, 0xa2, 0x8d, 0x47, 0x6a, 0xa7, 0xfe, 0x0, 0x0, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:09:20.697][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:09:20.697][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]executeBatch () called
+[jcc][Time:2022-12-22-05:09:20.698][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]executeBatch () returned { 1, 1, 1, 1, 1, 1 }
+[jcc][Time:2022-12-22-05:09:20.698][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]getMoreResults () called
+[jcc][Time:2022-12-22-05:09:20.698][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:09:20.698][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]getUpdateCount () called
+[jcc][Time:2022-12-22-05:09:20.699][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:09:20.699][Thread:Default Executor-thread-8][PreparedStatement@bce199cc]clearParameters () called
+[jcc][Time:2022-12-22-05:09:20.699][Thread:Default Executor-thread-8][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.000D
+[jcc][Time:2022-12-22-05:09:20.704][Thread:Default Executor-thread-8][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:09:20.704][Thread:Default Executor-thread-8][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:09:20.704][Thread:Default Executor-thread-8][Connection@df90549d]isInDB2UnitOfWork () returned false
+
+
+--- execute 2nd transaction ---
+
+
+[jcc][Time:2022-12-22-05:10:32.788][Thread:Default Executor-thread-7][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:10:32.789][Thread:Default Executor-thread-7][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:10:32.789][Thread:Default Executor-thread-7][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:10:32.789][Thread:Default Executor-thread-7][Connection@df90549d]createStatement () returned Statement@b2b39260
+[jcc][Time:2022-12-22-05:10:32.789][Thread:Default Executor-thread-7][Statement@b2b39260]executeQuery (SELECT SERVER_NAME FROM WAS_TRAN_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:10:32.790][Thread:Default Executor-thread-7][Statement@b2b39260]executeQuery () returned ResultSet@d52939c6
+[jcc][Time:2022-12-22-05:10:32.790][Thread:Default Executor-thread-7][ResultSet@d52939c6]next () called
+[jcc][Time:2022-12-22-05:10:32.792][Thread:Default Executor-thread-7][ResultSet@d52939c6]next () returned true
+[jcc][Time:2022-12-22-05:10:32.792][Thread:Default Executor-thread-7][ResultSet@d52939c6]getString (1) called
+[jcc][Time:2022-12-22-05:10:32.792][Thread:Default Executor-thread-7][ResultSet@d52939c6]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:10:32.792][Thread:Default Executor-thread-7][ResultSet@d52939c6]close () called
+[jcc][Time:2022-12-22-05:10:32.792][Thread:Default Executor-thread-7][ResultSet@d52939c6]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:10:32.793][Thread:Default Executor-thread-7][ResultSet@d52939c6]markClosed () called
+[jcc][Time:2022-12-22-05:10:32.793][Thread:Default Executor-thread-7][Statement@b2b39260]close () called
+[jcc][Time:2022-12-22-05:10:32.793][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:10:32.793][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][Connection@df90549d]prepareStatement (DELETE FROM WAS_TRAN_LOG_WLP1 WHERE SERVER_NAME = ? AND SERVICE_ID = ? AND RU_ID = ? , 1003, 1007) called
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][Connection@df90549d]prepareStatement () returned com.ibm.db2.jcc.am.gp@edb96cbd
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (4, 0) called
+[jcc][Time:2022-12-22-05:10:32.794][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:10:32.795][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setBytes (6, { 0x3 }) called
+[jcc][Time:2022-12-22-05:10:32.795][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:10:32.796][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:10:32.796][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:10:32.796][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setShort (5, 1) called
+[jcc][Time:2022-12-22-05:10:32.796][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x2, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:10:32.796][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:10:32.796][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:10:32.796][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:10:32.797][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setShort (5, 2) called
+[jcc][Time:2022-12-22-05:10:32.797][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x3, 0x0, 0x2 }) called
+[jcc][Time:2022-12-22-05:10:32.797][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:10:32.797][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:10:32.797][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setShort (5, 3) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x4, 0x0, 0x3 }) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setShort (5, 4) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x5, 0x0, 0x4 }) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setLong (4, 3) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:10:32.798][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]setBytes (6, { 0x57, 0x41, 0x53, 0x44, 0x0, 0x0, 0x0, 0x24, 0x0, 0x0, 0x0, 0x28, 0x0, 0x0, 0x1, 0x85, 0x38, 0x3d, 0x80, 0x45, 0x0, 0x0, 0x0, 0x1, 0x60, 0xf0, 0x4a, 0xdc, 0xb3, 0xa7, 0x34, 0x83, 0x14, 0xfc, 0xcf, 0x92, 0x6a, 0x93, 0xf6, 0x7f, 0x94, 0xfc, 0xa2, 0x8d, 0x47, 0x6a, 0xa7, 0xfe, 0x0, 0x0, 0x1, 0x85, 0x38, 0x3d, 0x80, 0x45, 0x0, 0x0, 0x0, 0x1, 0x60, 0xf0, 0x4a, 0xdc, 0xb3, 0xa7, 0x34, 0x83, 0x14, 0xfc, 0xcf, 0x92, 0x6a, 0x93, 0xf6, 0x7f, 0x94, 0xfc, 0xa2, 0x8d, 0x47, 0x6a, 0xa7, 0xfe, 0x0, 0x0, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:10:32.799][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:10:32.799][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:10:32.799][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]addBatch () called
+[jcc][Time:2022-12-22-05:10:32.805][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]executeBatch () called
+[jcc][Time:2022-12-22-05:10:32.811][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]executeBatch () returned { 1, 1, 1, 1, 1, 1 }
+[jcc][Time:2022-12-22-05:10:32.811][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]executeBatch () called
+[jcc][Time:2022-12-22-05:10:32.813][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]executeBatch () returned { 6 }
+[jcc][Time:2022-12-22-05:10:32.813][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]getMoreResults () called
+[jcc][Time:2022-12-22-05:10:32.813][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:10:32.813][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]getUpdateCount () called
+[jcc][Time:2022-12-22-05:10:32.813][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:10:32.813][Thread:Default Executor-thread-7][PreparedStatement@bce199cc]clearParameters () called
+[jcc][Time:2022-12-22-05:10:32.814][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]getMoreResults () called
+[jcc][Time:2022-12-22-05:10:32.814][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:10:32.814][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]getUpdateCount () called
+[jcc][Time:2022-12-22-05:10:32.814][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:10:32.814][Thread:Default Executor-thread-7][PreparedStatement@edb96cbd]clearParameters () called
+[jcc][Time:2022-12-22-05:10:32.814][Thread:Default Executor-thread-7][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.000E
+[jcc][Time:2022-12-22-05:10:32.823][Thread:Default Executor-thread-7][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:10:32.823][Thread:Default Executor-thread-7][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:10:32.824][Thread:Default Executor-thread-7][Connection@df90549d]isInDB2UnitOfWork () returned false
+
+
+--- execute 3rd transaction ---
+
+
+[jcc][Time:2022-12-22-05:13:26.649][Thread:Default Executor-thread-5][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:13:26.649][Thread:Default Executor-thread-5][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:13:26.649][Thread:Default Executor-thread-5][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:13:26.649][Thread:Default Executor-thread-5][Connection@df90549d]createStatement () returned Statement@26417b45
+[jcc][Time:2022-12-22-05:13:26.649][Thread:Default Executor-thread-5][Statement@26417b45]executeQuery (SELECT SERVER_NAME FROM WAS_TRAN_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:13:26.655][Thread:Default Executor-thread-5][Statement@26417b45]executeQuery () returned ResultSet@6ffb0bc0
+[jcc][Time:2022-12-22-05:13:26.656][Thread:Default Executor-thread-5][ResultSet@6ffb0bc0]next () called
+[jcc][Time:2022-12-22-05:13:26.657][Thread:Default Executor-thread-5][ResultSet@6ffb0bc0]next () returned true
+[jcc][Time:2022-12-22-05:13:26.657][Thread:Default Executor-thread-5][ResultSet@6ffb0bc0]getString (1) called
+[jcc][Time:2022-12-22-05:13:26.657][Thread:Default Executor-thread-5][ResultSet@6ffb0bc0]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:13:26.657][Thread:Default Executor-thread-5][ResultSet@6ffb0bc0]close () called
+[jcc][Time:2022-12-22-05:13:26.657][Thread:Default Executor-thread-5][ResultSet@6ffb0bc0]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:13:26.658][Thread:Default Executor-thread-5][ResultSet@6ffb0bc0]markClosed () called
+[jcc][Time:2022-12-22-05:13:26.658][Thread:Default Executor-thread-5][Statement@26417b45]close () called
+[jcc][Time:2022-12-22-05:13:26.658][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:13:26.658][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:13:26.658][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (4, 0) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setBytes (6, { 0x3 }) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setShort (5, 1) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x2, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:13:26.659][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setShort (5, 2) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x3, 0x0, 0x2 }) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setShort (5, 3) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x4, 0x0, 0x3 }) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (4, 2) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setShort (5, 4) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setBytes (6, { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x5, 0x0, 0x4 }) called
+[jcc][Time:2022-12-22-05:13:26.660][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:13:26.661][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:13:26.661][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setLong (4, 3) called
+[jcc][Time:2022-12-22-05:13:26.661][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setShort (5, 0) called
+[jcc][Time:2022-12-22-05:13:26.661][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]setBytes (6, { 0x57, 0x41, 0x53, 0x44, 0x0, 0x0, 0x0, 0x24, 0x0, 0x0, 0x0, 0x28, 0x0, 0x0, 0x1, 0x85, 0x38, 0x40, 0x27, 0x69, 0x0, 0x0, 0x0, 0x1, 0x60, 0xf0, 0x4a, 0xe4, 0xb3, 0xa7, 0x34, 0x83, 0x14, 0xfc, 0xcf, 0x92, 0x6a, 0x93, 0xf6, 0x7f, 0x94, 0xfc, 0xa2, 0x8d, 0x47, 0x6a, 0xa7, 0xfe, 0x0, 0x0, 0x1, 0x85, 0x38, 0x40, 0x27, 0x69, 0x0, 0x0, 0x0, 0x1, 0x60, 0xf0, 0x4a, 0xe4, 0xb3, 0xa7, 0x34, 0x83, 0x14, 0xfc, 0xcf, 0x92, 0x6a, 0x93, 0xf6, 0x7f, 0x94, 0xfc, 0xa2, 0x8d, 0x47, 0x6a, 0xa7, 0xfe, 0x0, 0x0, 0x0, 0x1 }) called
+[jcc][Time:2022-12-22-05:13:26.661][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]addBatch () called
+[jcc][Time:2022-12-22-05:13:26.661][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:13:26.661][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]addBatch () called
+[jcc][Time:2022-12-22-05:13:26.661][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]executeBatch () called
+[jcc][Time:2022-12-22-05:13:26.669][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]executeBatch () returned { 1, 1, 1, 1, 1, 1 }
+[jcc][Time:2022-12-22-05:13:26.669][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]executeBatch () called
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]executeBatch () returned { 6 }
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]getMoreResults () called
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]getUpdateCount () called
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@bce199cc]clearParameters () called
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]getMoreResults () called
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]getUpdateCount () called
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:13:26.675][Thread:Default Executor-thread-5][PreparedStatement@edb96cbd]clearParameters () called
+[jcc][Time:2022-12-22-05:13:26.676][Thread:Default Executor-thread-5][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.000F
+[jcc][Time:2022-12-22-05:13:26.688][Thread:Default Executor-thread-5][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:13:26.688][Thread:Default Executor-thread-5][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:13:26.688][Thread:Default Executor-thread-5][Connection@df90549d]isInDB2UnitOfWork () returned false
+
+
+--- termination ---
+
+
+[jcc][Time:2022-12-22-05:14:28.786][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]clearWarnings () called
+[jcc][Time:2022-12-22-05:14:28.786][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:14:28.786][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:14:28.786][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]createStatement () returned Statement@24592188
+[jcc][Time:2022-12-22-05:14:28.786][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@24592188]executeQuery (SELECT SERVER_NAME, RUSECTION_ID FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:14:28.792][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@24592188]executeQuery () returned ResultSet@eaa86c2
+[jcc][Time:2022-12-22-05:14:28.792][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@eaa86c2]next () called
+[jcc][Time:2022-12-22-05:14:28.793][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@eaa86c2]next () returned true
+[jcc][Time:2022-12-22-05:14:28.793][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@eaa86c2]getString (1) called
+[jcc][Time:2022-12-22-05:14:28.793][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@eaa86c2]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:14:28.794][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@eaa86c2]close () called
+[jcc][Time:2022-12-22-05:14:28.794][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@eaa86c2]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:14:28.795][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@eaa86c2]markClosed () called
+[jcc][Time:2022-12-22-05:14:28.795][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@24592188]executeUpdate (UPDATE WAS_PARTNER_LOG_WLP1 SET RUSECTION_ID = 255 WHERE RU_ID = -1) called
+[jcc][Time:2022-12-22-05:14:28.798][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@24592188]executeUpdate () returned 1
+[jcc][Time:2022-12-22-05:14:28.798][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@24592188]close () called
+[jcc][Time:2022-12-22-05:14:28.798][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0010
+[jcc][Time:2022-12-22-05:14:28.802][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:14:28.862][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:14:28.862][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]createStatement () returned Statement@9ac4a45f
+[jcc][Time:2022-12-22-05:14:28.862][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@9ac4a45f]executeQuery (SELECT SERVER_NAME FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:14:28.868][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@9ac4a45f]executeQuery () returned ResultSet@8d9f420b
+[jcc][Time:2022-12-22-05:14:28.868][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@8d9f420b]next () called
+[jcc][Time:2022-12-22-05:14:28.870][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@8d9f420b]next () returned true
+[jcc][Time:2022-12-22-05:14:28.870][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@8d9f420b]getString (1) called
+[jcc][Time:2022-12-22-05:14:28.870][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@8d9f420b]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:14:28.870][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@8d9f420b]close () called
+[jcc][Time:2022-12-22-05:14:28.870][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@8d9f420b]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:14:28.871][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@8d9f420b]markClosed () called
+[jcc][Time:2022-12-22-05:14:28.871][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@9ac4a45f]close () called
+[jcc][Time:2022-12-22-05:14:28.872][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]prepareStatement (DELETE FROM WAS_PARTNER_LOG_WLP1 WHERE SERVER_NAME = ? AND SERVICE_ID = ? AND RU_ID = ? , 1003, 1007) called
+[jcc][Time:2022-12-22-05:14:28.872][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]prepareStatement () returned com.ibm.db2.jcc.am.gp@99e92f74
+[jcc][Time:2022-12-22-05:14:28.872][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]getFetchSize () returned 0
+[jcc][Time:2022-12-22-05:14:28.873][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]setString (1, defaultServer) called
+[jcc][Time:2022-12-22-05:14:28.873][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]setShort (2, 1) called
+[jcc][Time:2022-12-22-05:14:28.873][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]setLong (3, 2) called
+[jcc][Time:2022-12-22-05:14:28.873][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]addBatch () called
+[jcc][Time:2022-12-22-05:14:28.876][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]setLong (3, 3) called
+[jcc][Time:2022-12-22-05:14:28.876][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]addBatch () called
+[jcc][Time:2022-12-22-05:14:28.877][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]setLong (3, 4) called
+[jcc][Time:2022-12-22-05:14:28.877][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]addBatch () called
+[jcc][Time:2022-12-22-05:14:28.877][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]setLong (3, 5) called
+[jcc][Time:2022-12-22-05:14:28.877][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]addBatch () called
+[jcc][Time:2022-12-22-05:14:28.877][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]setLong (3, 1) called
+[jcc][Time:2022-12-22-05:14:28.877][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]addBatch () called
+[jcc][Time:2022-12-22-05:14:28.877][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]executeBatch () called
+[jcc][Time:2022-12-22-05:14:28.885][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]executeBatch () returned { 1, 1, 1, 1, 6 }
+[jcc][Time:2022-12-22-05:14:28.885][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]getMoreResults () called
+[jcc][Time:2022-12-22-05:14:28.885][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]getMoreResults () returned false
+[jcc][Time:2022-12-22-05:14:28.885][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]getUpdateCount () called
+[jcc][Time:2022-12-22-05:14:28.885][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]getUpdateCount () returned -1
+[jcc][Time:2022-12-22-05:14:28.885][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]clearParameters () called
+[jcc][Time:2022-12-22-05:14:28.885][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0011
+[jcc][Time:2022-12-22-05:14:28.890][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:14:28.890][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]createStatement (1003, 1007) called
+[jcc][Time:2022-12-22-05:14:28.890][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]createStatement () returned Statement@2402acc
+[jcc][Time:2022-12-22-05:14:28.890][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@2402acc]executeQuery (SELECT SERVER_NAME, RUSECTION_ID FROM WAS_PARTNER_LOG_WLP1 WHERE RU_ID=-1 FOR UPDATE) called
+[jcc][Time:2022-12-22-05:14:28.892][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@2402acc]executeQuery () returned ResultSet@57bb52e5
+[jcc][Time:2022-12-22-05:14:28.892][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@57bb52e5]next () called
+[jcc][Time:2022-12-22-05:14:28.893][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@57bb52e5]next () returned true
+[jcc][Time:2022-12-22-05:14:28.893][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@57bb52e5]getString (1) called
+[jcc][Time:2022-12-22-05:14:28.893][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@57bb52e5]getString () returned defaultServer
+[jcc][Time:2022-12-22-05:14:28.893][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@57bb52e5]close () called
+[jcc][Time:2022-12-22-05:14:28.893][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@57bb52e5]closeX (null, com.ibm.db2.jcc.t4.b@df90549d) called
+[jcc][Time:2022-12-22-05:14:28.894][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][ResultSet@57bb52e5]markClosed () called
+[jcc][Time:2022-12-22-05:14:28.894][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@2402acc]executeUpdate (UPDATE WAS_PARTNER_LOG_WLP1 SET RUSECTION_ID = 1 WHERE RU_ID = -1) called
+[jcc][Time:2022-12-22-05:14:28.897][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@2402acc]executeUpdate () returned 1
+[jcc][Time:2022-12-22-05:14:28.897][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Statement@2402acc]close () called
+[jcc][Time:2022-12-22-05:14:28.897][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]commit () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0012
+[jcc][Time:2022-12-22-05:14:28.901][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]commit () returned null
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]isInDB2UnitOfWork () returned false
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@692620b1]removeConnectionEventListener (WSRdbManagedConnectionImpl@60ef0ed0) called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@692620b1]removeStatementEventListener (WSRdbManagedConnectionImpl@60ef0ed0) called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@99e92f74]close () called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@98a1184]close () called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@edb96cbd]close () called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][PreparedStatement@bce199cc]close () called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]isClosed () returned false
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]getAutoCommit () returned false
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]setAutoCommit (true) called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][Connection@df90549d]setAutoCommit (false) called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@692620b1]recycleConnection () called
+[jcc][Time:2022-12-22-05:14:28.910][Thread:Framework stop - Equinox Container: 5254cadf-f71f-437d-84de-0a4688b633d7][DB2PooledConnection@692620b1]close () called
+[jcc][Connection@df90549d] DB2 LUWID: 10.36.0.1.54936.221222050740.0013
